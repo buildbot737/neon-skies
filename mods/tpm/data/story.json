@@ -3,8 +3,9 @@
     "characters": {
       "n": { "name": "Narrator", "color": "#cccccc" },
       "h": { "name": "Hero", "color": "#00bfff" },
-      "guard": { "name": "Guard", "color": "#aa0000" },
-      "beckman": { "name": "Beckman", "color": "#00aa00" }
+      "guard": { "name": "Guard", "color": "#aa0000", "portrait": "mods/tpm/npc/guards.png" },
+      "beckman": { "name": "Beckman", "color": "#00aa00", "portrait": "mods/tpm/npc/beckman.png" },
+      "jennings": { "name": "Jennings", "color": "#00aa00", "portrait": "mods/tpm/npc/jennings.png" }
     }
   },
   "script": {
