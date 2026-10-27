@@ -1,0 +1,91 @@
+{
+  "settings": {
+    "characters": {
+      "n": { "name": "Narrator", "color": "#cccccc" },
+      "h": { "name": "Hero", "color": "#00bfff" },
+      "guard": { "name": "Guard", "color": "#aa0000" },
+      "beckman": { "name": "Beckman", "color": "#00aa00" }
+    }
+  },
+  "script": {
+    "Start": [
+      "n You’re deep inside a mansion in the riverfront district of Lamberta Heights, the wealthiest sector of Rook City.",
+      "n The parlor is lavishly decorated in a mix of the trappings of old Japan and large plush velvet seating, all under an undulating wave of cyan light.",
+      "jump guard/choice"
+    ],
+
+    "guard/choice": [
+      {
+        "Choice": {
+          "h Nice, who's house is it anyway?": "guard/choice/1",
+          "h Seriously now?": "guard/choice/2",
+          "h Well screw it, let's wait...": "guard/choice/3"
+        }
+      }
+    ],
+
+    "guard/choice/1": [
+      "guard ...",
+      "jump guard/choice"
+    ],
+
+    "guard/choice/2": [
+      "show guard annoyed",
+      "n He lets out a sigh.",
+      "guard Emeril Jennings. Now shut up, sit down and wait.",
+      "jump guard/choice"
+    ],
+
+    "guard/choice/3": [
+      "n After a short while, the nearby pocket doors swoosh open to reveal a man in surprisingly common street clothes.",
+      "n His irises grow a brilliant violet as he regards you.",
+      "show beckman normal",
+      "beckman So, these are our operatives. Follow me.",
+      "n He leads you down a couple of hallways, opulent marble and inlaid streams of glowing neon, ultimately to an office.",
+      "n One entire wall is a window looking out upon the Cobalt River and the Rook itself. A few miles beyond that, the spotlights",
+      "n and technicolor light pollution of Arcadia beckon. You note that this room has a desk made of actual wood.",
+      "beckman Let me introduce myself first. Beckman, Henry Beckman. Fancy a drink?",
+      "n TBD: he offers you a seat. etc",
+      "n A few more finely dressed guards in sunglasses are also in the room, though they appear uninterested in the conversation.",
+      "beckman As you know, the Liberation Front seeks to promote the interests of the people.",
+      "beckman In the decades we have left as a civilization, it is only right that we should levelize the quality of life.",
+      "beckman Our intel has revealed a massive opportunity.",
+      "beckman The rumor is, that Viridian Pharmaceuticals has developed a vaccine to cybernecrosis.",
+      "beckman The formula is finished and the gold master prototype is out there somewhere.",
+      "beckman Apparently, initial synthesis is incredibly complex, and takes months to manufacture.",
+      "beckman But once a master dose is prepared, replication through the use of MSM can be done very rapidly.",
+      "beckman Therefore, we expect that the prototype will eventually end up in one of their manufacturing facilities over in Terryton.",
+      "beckman No doubt, they’ll charge whatever they want to for it.",
+      "beckman Your job? Find that gold master and return it to me, so that the Front's scientists can begin reverse-engineering, duplication and distribution.",
+      "jump beckman/choice"
+    ],
+
+    "beckman/choice": [
+      {
+        "Choice": {
+          "[Look around.]": "sc01/ask-beckman-1",
+          "h Who's house is this?": "sc01/ask-beckman-2",
+          "h Where's Mr. Jennings?": "sc01/ask-beckman-3",
+          "h Where'd you hear about this prototype?": "sc01/ask-beckman-4",
+          "h Marcus?": "sc01/ask-beckman-5",
+          "h Why doesn’t the Front handle it?": "sc01/ask-beckman-6",
+          "h How much does the job pay?": "sc01/ask-beckman-7",
+          "h How do you suggest we start?": "sc01/ask-beckman-8",
+          "h TBD: Ok then.": "sc01/goto-scene-2"
+        }
+      }
+    ],
+
+    "beckman/choice/1": [
+      "n Mounted on the wall above the fireplace is an ancient-looking wakizashi; the blade is chipped and warped, so the fact that it's on display must mean it was used in some very important manner.",
+      "jump beckman/choice"
+    ],
+
+    "beckman/choice/2": [
+    ],
+
+    "End": [
+      "end"
+    ]
+  }
+}

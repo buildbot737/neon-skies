@@ -1,0 +1,5 @@
+[
+  { "name": "ehe-7", "frame": 7, "cyber": 4, "feature": "nimble", "ep": 112, "spriteId": "bot/ehe-7" },
+  { "name": "xp90", "frame": 9, "cyber": 5, "feature": "armored", "ep": 29, "spriteId": "bot/xp90" },
+  { "name": "xp120", "frame": 15, "cyber": 5, "feature": "hardened", "ep": 50, "spriteId": "bot/xp120" }
+]

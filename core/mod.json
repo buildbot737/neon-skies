@@ -1,0 +1,8 @@
+{
+  "id": "core",
+  "verion": "0.0.1",
+  "dependencies": [],
+  "data": {
+    "npc": "data/npc.json"
+  }
+}
