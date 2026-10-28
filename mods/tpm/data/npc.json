@@ -1,3 +1,4 @@
 [
-  { "name": "beckmann", "type": "chaff", "strainId": "grumman", "body": 1, "mind": 1, "soul": 1, "cyber": 1, "knack": 1, "tough": 1 }
+  { "name": "beckmann", "type": "chaff", "strainId": "grumman", "body": 1, "mind": 1, "soul": 1, "cyber": 1, "knack": 1, "tough": 1 },
+  { "name": "jennings", "type": "chaff", "strainId": "grumman", "body": 1, "mind": 1, "soul": 1, "cyber": 1, "knack": 1, "tough": 1 }
 ]

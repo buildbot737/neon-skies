@@ -1,0 +1,17 @@
+{
+  "settings": {
+    "characters": {
+      "n": { "name": "Narrator", "color": "#cccccc" }
+    }
+  },
+  "script": {
+    "Start": [
+      "n The year is 2151, and this is Rook City",
+      "jump end"
+    ],
+
+    "End": [
+      "end"
+    ]
+  }
+}
