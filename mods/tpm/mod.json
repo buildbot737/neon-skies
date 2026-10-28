@@ -1,9 +1,13 @@
 {
-  "id": "the-peoples-medicine",
-  "verion": "0.0.1",
+  "id": "tpm",
+  "name": "The People's Medicine",
+  "version": "0.0.1",
   "dependencies": [],
   "data": {
-    "npc": "npc.json",
-    "story": "story.json"
+    "npc": "data/npc.json",
+    "story": "data/story.json"
+  },
+  "assets": {
+    "background": "scene/Cyberpunk Executive Suite Overlooking Neon City.png"
   }
 }
