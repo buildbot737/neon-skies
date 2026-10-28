@@ -4,6 +4,10 @@
   "version": "0.0.1",
   "dependencies": [],
   "data": {
-    "story": "data/story.json"
+    "story": {
+      "tutorial": {
+        "script": "data/story.json"
+      }
+    }
   }
 }

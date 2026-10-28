@@ -5,7 +5,7 @@
   "dependencies": [],
   "data": {
     "npc": {
-      "beckmann": {
+      "tpm/beckmann": {
         "type": "chaff",
         "strainId": "grumman",
         "body": 1,
@@ -15,7 +15,7 @@
         "knack": 1,
         "tough": 1
       },
-      "jennings": {
+      "tpm/jennings": {
         "type": "chaff",
         "strainId": "grumman",
         "body": 1,
@@ -25,7 +25,11 @@
         "knack": 1,
         "tough": 1
       }
+    },
+    "story": {
+      "tpm/the-peoples-medicine": {
+        "script": "story.json"
+      }
     }
-  },
-  "story": "story.json"
+  }
 }
