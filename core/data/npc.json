@@ -1,4 +1,0 @@
-[
-  { "name": "generic-security-guard", "type": "chaff", "strainId": "grumman", "body": 2, "mind": 1, "soul": 1, "cyber": 1, "knack": 1, "tough": 2 },
-  { "name": "rcpd/bishop", "type": "nocturner", "strainId": "eurasia", "body": 3, "mind": 2, "soul": 1, "cyber": 3, "knack": 3, "tough": 3 }
-]

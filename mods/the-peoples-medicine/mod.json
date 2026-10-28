@@ -1,0 +1,10 @@
+{
+  "id": "the-peoples-medicine",
+  "name": "The People's Medicine",
+  "version": "0.0.1",
+  "dependencies": [],
+  "data": {
+    "npc": "data/npc.json",
+    "story": "data/story.json"
+  }
+}

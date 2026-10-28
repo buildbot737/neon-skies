@@ -1,0 +1,232 @@
+{
+  "id": "core",
+  "name": "Core",
+  "version": "0.0.1",
+  "dependencies": [],
+  "data": {
+    "armor": {
+      "full-tactical-gear": {
+        "wt": 2,
+        "type": ""
+      }
+    },
+    "bot": {
+      "ehe-7": {
+        "frame": 7,
+        "cyber": 4,
+        "feature": "nimble",
+        "ep": 112,
+        "spriteId": "bot/ehe-7"
+      },
+      "xp90": {
+        "frame": 9,
+        "cyber": 5,
+        "feature": "armored",
+        "ep": 29,
+        "spriteId": "bot/xp90"
+      },
+      "xp120": {
+        "frame": 15,
+        "cyber": 5,
+        "feature": "hardened",
+        "ep": 50,
+        "spriteId": "bot/xp120"
+      }
+    },
+    "npc": {
+      "generic-security-guard": {
+        "type": "chaff",
+        "strainId": "grumman",
+        "body": 2,
+        "mind": 1,
+        "soul": 1,
+        "cyber": 1,
+        "knack": 1,
+        "tough": 2
+      },
+      "rcpd/bishop": {
+        "type": "nocturner",
+        "strainId": "eurasia",
+        "body": 3,
+        "mind": 2,
+        "soul": 1,
+        "cyber": 3,
+        "knack": 3,
+        "tough": 3
+      }
+    },
+    "vehicle": {
+      "tensor/reliant": {
+        "armor": {
+          "wt": 2,
+          "type": "none"
+        },
+        "frame": 4,
+        "cyber": 1,
+        "feature": "none",
+        "cost": 8000,
+        "upkeep": 80,
+        "spriteId": "tensor/reliant"
+      },
+      "tensor/bustler": {
+        "armor": {
+          "wt": 2,
+          "type": "none"
+        },
+        "frame": 7,
+        "cyber": 1,
+        "feature": "none",
+        "cost": 14000,
+        "upkeep": 140,
+        "spriteId": "tensor/bustler"
+      },
+      "tensor/troubadour": {
+        "armor": {
+          "wt": 2,
+          "type": "none"
+        },
+        "frame": 5,
+        "cyber": 2,
+        "feature": "armored",
+        "cost": 20000,
+        "upkeep": 200,
+        "spriteId": "tensor/troubadour"
+      },
+      "tensor/mobius": {
+        "armor": {
+          "wt": 2,
+          "type": "none"
+        },
+        "frame": 7,
+        "cyber": 2,
+        "feature": "nimble",
+        "cost": 42000,
+        "upkeep": 420,
+        "spriteId": "tensor/mobius"
+      },
+      "tensor/practicale": {
+        "armor": {
+          "wt": 2,
+          "type": "none"
+        },
+        "frame": 5,
+        "cyber": 4,
+        "feature": "nimble",
+        "cost": 60000,
+        "upkeep": 600,
+        "spriteId": "tensor/practicale"
+      },
+      "tensor/speciale": {
+        "armor": {
+          "wt": 2,
+          "type": "none"
+        },
+        "frame": 7,
+        "cyber": 4,
+        "feature": "hardened",
+        "cost": 84000,
+        "upkeep": 840,
+        "spriteId": "tensor/speciale"
+      },
+      "tensor/finale": {
+        "armor": {
+          "wt": 2,
+          "type": "none"
+        },
+        "frame": 9,
+        "cyber": 4,
+        "feature": "hardened",
+        "cost": 108000,
+        "upkeep": 1080,
+        "spriteId": "tensor/finale"
+      },
+      "armored-truck": {
+        "armor": {
+          "wt": 2,
+          "type": "none"
+        },
+        "frame": 5,
+        "cyber": 4,
+        "feature": "armored",
+        "cost": -1,
+        "upkeep": -1,
+        "spriteId": "armored-truck"
+      }
+    },
+    "weapon": {
+      "twin-autocannon": {
+        "wt": 2,
+        "range": "ranged",
+        "type": "",
+        "dmg": "2"
+      },
+      "cc8-machine-gun": {
+        "wt": 1,
+        "range": "ranged",
+        "type": "",
+        "dmg": "1"
+      },
+      "reciprocating-pulse-cannon": {
+        "wt": 3,
+        "range": "ranged",
+        "type": "",
+        "dmg": "4"
+      },
+      "area-flamer": {
+        "wt": 3,
+        "range": "ranged",
+        "type": "",
+        "dmg": "b3d6"
+      },
+      "devastator-array": {
+        "wt": 3,
+        "range": "ranged",
+        "type": "",
+        "dmg": "3"
+      },
+      "aux-laser": {
+        "wt": 2,
+        "range": "ranged",
+        "type": "",
+        "dmg": "3"
+      },
+      "eye-of-the-azure-hydra": {
+        "wt": 3,
+        "range": "ranged",
+        "type": "",
+        "dmg": "4"
+      },
+      "elite-service-pistol": {
+        "wt": 1,
+        "range": "ranged",
+        "type": "",
+        "dmg": "1"
+      },
+      "patrol-baton": {
+        "wt": 0,
+        "range": "melee",
+        "type": "",
+        "dmg": "0"
+      },
+      "blunderbuzz": {
+        "wt": 2,
+        "range": "ranged",
+        "type": "",
+        "dmg": "4"
+      }
+    },
+    "sprite": {
+      "tensor/reliant": "core/vehicle/tensor/reliant.png",
+      "tensor/bustler": "core/vehicle/tensor/bustler.png",
+      "tensor/troubadour": "core/vehicle/tensor/troubadour.png",
+      "tensor/mobius": "core/vehicle/tensor/mobius.png",
+      "tensor/practicale": "core/vehicle/tensor/practicale.png",
+      "tensor/speciale": "core/vehicle/tensor/speciale.png",
+      "tensor/finale": "core/vehicle/tensor/finale.png",
+      "armored-truck": "core/vehicle/armored-truck.pngcore/",
+      "bot/ehe-7": "core/bot/ehe-7.png",
+      "bot/xp90": "core/bot/xp90.png",
+      "bot/xp120": "core/bot/xp120.png"
+    }
+  }
+}
