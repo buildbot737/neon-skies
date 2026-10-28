@@ -1,9 +1,8 @@
 {
   "id": "tutorial",
-  "name": "Tutorial",
-  "version": "0.0.1",
+  "verion": "0.0.1",
   "dependencies": [],
   "data": {
-    "story": "data/story.json"
+    "story": "story.json"
   }
 }
