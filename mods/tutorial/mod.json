@@ -4,9 +4,27 @@
   "version": "0.0.1",
   "dependencies": [],
   "data": {
+    "map": {
+      "rook-city": {
+        "background": "map/rook-city.png"
+      }
+    },
+    "scenario": {
+      "tutorial": {
+        "script": [
+          "show-map root-city",
+          "start-story tutorial"
+        ]
+      },
+      "skip-tutorial": {
+        "script": [
+          "show-map rook-city"
+        ]
+      }
+    },
     "story": {
       "tutorial": {
-        "script": "data/story.json"
+        "scriptFile": "data/story.json"
       }
     }
   }

@@ -32,7 +32,7 @@
     },
     "story": {
       "tpm/the-peoples-medicine": {
-        "script": "story.json"
+        "scriptFile": "story.json"
       }
     }
   }
