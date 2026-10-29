@@ -1,0 +1,11 @@
+msgid "cybercafe/redline/name"
+msgstr "REDLINE"
+
+msgid "cybercafe/redline/description"
+msgstr "Way down in Wildside is the Redline club. The place is owned and operated by the CFA. A huge toroid of dense steel bars some three hundred feet in diameter encloses bikers racing on motorcycles in death-derby fashion. This high speed chase of spinning metal induces enough electromagnetic current to power the cafe’s scrambler, which is suspended in the center of the toroid by a few dozen radial spokes connecting the two. This entire apparatus is elevated about ﬁfteen feet above the ground on pillars and festooned with small colored point lights on the underside. On the ground below are clusters of beat-up cushioned chairs for OmniNet diving teams. The establishment has no walls. Members of prayer circles can volunteer to participate in the derby in order to gain free entry for up to four members of their group."
+
+msgid "cybercafe/paradox/name"
+msgstr "PARADOX"
+
+msgid "cybercafe/paradox/description"
+msgstr "The most famous and iconic of all the cybercafes is Paradox. Its front facade is almost synonymous with the name Rook City. It is a seven-sided building, nine stories tall and a hundred meters to a side. On the ﬁrst ﬂoor, the entire perimeter is lined with bars and private rooms. The ﬂoor of the central area is broken up into a few large platforms at varying heights, like a fractal. Each has its own style of decor and music playing. The upper levels are perimeter-chasing balconies about 10 meters wide; these are where the high-backed circular booths for conducting dives are located. From the ﬁrst ﬂoor, the ceiling appears cavernous. Dangling down from the center of that ceiling somewhere close to the ﬁfth ﬂoor is the scrambler."
