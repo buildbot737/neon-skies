@@ -231,6 +231,29 @@
       "bot/ehe-7": "core/bot/ehe-7.png",
       "bot/xp90": "core/bot/xp90.png",
       "bot/xp120": "core/bot/xp120.png"
+    },
+    "map": {
+      "rook-city": {
+        "background": "map/rook-city.png"
+      }
+    },
+    "scenario": {
+      "tutorial": {
+        "script": [
+          "show-map root-city",
+          "start-story tutorial"
+        ]
+      },
+      "skip-tutorial": {
+        "script": [
+          "show-map rook-city"
+        ]
+      }
+    },
+    "story": {
+      "tutorial": {
+        "scriptFile": "data/story.json"
+      }
     }
   }
 }
