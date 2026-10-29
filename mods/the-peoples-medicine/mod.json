@@ -34,6 +34,18 @@
       "tpm/the-peoples-medicine": {
         "scriptFile": "story.json"
       }
+    },
+    "mapMarker": {
+      "tpm/launcher": {
+        "mapId": "rook-city",
+        "text": "Quest: The People's Medicine",
+        "-- TBD: add icons etc": "",
+        "x": 100,
+        "y": 100,
+        "script": [
+          "start-story tpm/the-peoples-medicine"
+        ]
+      }
     }
   }
 }
