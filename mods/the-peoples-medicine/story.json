@@ -3,10 +3,13 @@
     "characters": {
       "n": { "name": "Narrator", "color": "#cccccc" },
       "hero": { "name": "Hero", "color": "#00bfff" },
-      "guard": { "name": "Guard", "color": "#aa0000", "portrait": "npc/guard.png" },
-      "beckman": { "name": "Beckman", "color": "#00aa00", "portrait": "npc/beckman.png" },
-      "jennings": { "name": "Jennings", "color": "#00aa00", "portrait": "npc/jennings.png" }
+      "guard": { "name": "Guard", "color": "#aa0000", "portrait": "mods/the-peoples-medicine/npc/guard.png" },
+      "beckman": { "name": "Beckman", "color": "#00aa00", "portrait": "mods/the-peoples-medicine/npc/beckman.png" },
+      "jennings": { "name": "Jennings", "color": "#00aa00", "portrait": "mods/the-peoples-medicine/npc/jennings.png" }
     }
+  },
+  "vars": {
+    "asked_house": "0"
   },
   "script": {
     "Start": [
@@ -20,9 +23,9 @@
       "show hero",
       {
         "Choice": {
-          "hero Nice, who's house is it anyway?": "guard/choice/1",
-          "hero Seriously now?": "guard/choice/2",
-          "hero Well screw it, let's wait...": "guard/choice/3"
+          "[!asked_house] hero Nice, who's house is it anyway?": "guard/choice/1",
+          "[asked_house] hero Seriously now?": "guard/choice/2",
+          "[asked_house] hero Well screw it, let's wait...": "guard/choice/3"
         }
       }
     ],
@@ -30,13 +33,14 @@
     "guard/choice/1": [
       "show guard",
       "guard ...",
+      "[set asked_house 1]",
       "jump guard/choice"
     ],
 
     "guard/choice/2": [
       "show guard annoyed",
       "n He lets out a sigh.",
-      "guard Emeril Jennings. Now shut up, wait.",
+      "guard Emeril Jennings. Now shut up and wait.",
       "jump guard/choice"
     ],
 
@@ -71,9 +75,9 @@
         "Choice": {
           "[Look around.]": "beckman/choice/1",
           "hero Who's house is this?": "beckman/choice/2",
-          "hero Where's Mr. Jennings?": "beckman/choice/3",
+          "[know_jennings_name] hero Where's Mr. Jennings?": "beckman/choice/3",
           "hero Where'd you hear about this prototype?": "beckman/choice/4",
-          "hero Marcus?": "beckman/choice/5",
+          "[know_marcus_name] hero Marcus?": "beckman/choice/5",
           "hero Why doesn’t the Front handle it?": "beckman/choice/6",
           "hero How much does the job pay?": "beckman/choice/7",
           "hero How do you suggest we start?": "beckman/choice/8",
@@ -90,6 +94,7 @@
 
     "beckman/choice/2": [
       "beckman Emeril Jennings, you may not know him.",
+      "[set know_jennings_name 1]",
       "jump beckman/choice"
     ],
 
@@ -100,6 +105,7 @@
 
     "beckman/choice/4": [
       "beckman The Front has sympathsizers on the inside of many corporations, including Viridian. This one goes by the codename Marcus, here...",
+      "[set know_marcus_name 1]",
       "jump beckman/choice"
     ],
 
