@@ -286,7 +286,12 @@
           "start-story tutorial"
         ]
       },
-      "skip-tutorial": {
+      "rook-city": {
+        "script": [
+          "show-map rook-city"
+        ]
+      },
+      "chase-example": {
         "script": [
           "start-chase chase-example-001"
         ]
