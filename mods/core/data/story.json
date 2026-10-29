@@ -6,7 +6,7 @@
   },
   "script": {
     "Start": [
-      "n The year is 2151, and this is Rook City",
+      "n The year is 2150, and this is Rook City.",
       "jump end"
     ],
 

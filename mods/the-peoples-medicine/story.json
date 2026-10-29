@@ -33,7 +33,7 @@
     "guard/choice/1": [
       "show guard",
       "guard ...",
-      "[set asked_house 1]",
+      "set asked_house 1",
       "jump guard/choice"
     ],
 
@@ -73,10 +73,10 @@
       "show hero",
       {
         "Choice": {
-          "[Look around.]": "beckman/choice/1",
+          "<Look around.>": "beckman/choice/1",
           "hero Who's house is this?": "beckman/choice/2",
-          "[know_jennings_name] hero Where's Mr. Jennings?": "beckman/choice/3",
-          "hero Where'd you hear about this prototype?": "beckman/choice/4",
+          "[know_jennings_name] hero Where is Mr. Jennings?": "beckman/choice/3",
+          "hero Where did you hear about this prototype?": "beckman/choice/4",
           "[know_marcus_name] hero Marcus?": "beckman/choice/5",
           "hero Why doesn’t the Front handle it?": "beckman/choice/6",
           "hero How much does the job pay?": "beckman/choice/7",
@@ -94,7 +94,7 @@
 
     "beckman/choice/2": [
       "beckman Emeril Jennings, you may not know him.",
-      "[set know_jennings_name 1]",
+      "set know_jennings_name 1",
       "jump beckman/choice"
     ],
 
@@ -105,7 +105,7 @@
 
     "beckman/choice/4": [
       "beckman The Front has sympathsizers on the inside of many corporations, including Viridian. This one goes by the codename Marcus, here...",
-      "[set know_marcus_name 1]",
+      "set know_marcus_name 1",
       "jump beckman/choice"
     ],
 
