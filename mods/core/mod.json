@@ -240,7 +240,7 @@
     "scenario": {
       "tutorial": {
         "script": [
-          "show-map root-city",
+          "show-map rook-city",
           "start-story tutorial"
         ]
       },
