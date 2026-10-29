@@ -220,17 +220,17 @@
       }
     },
     "sprite": {
-      "tensor/reliant": "core/vehicle/tensor/reliant.png",
-      "tensor/bustler": "core/vehicle/tensor/bustler.png",
-      "tensor/troubadour": "core/vehicle/tensor/troubadour.png",
-      "tensor/mobius": "core/vehicle/tensor/mobius.png",
-      "tensor/practicale": "core/vehicle/tensor/practicale.png",
-      "tensor/speciale": "core/vehicle/tensor/speciale.png",
-      "tensor/finale": "core/vehicle/tensor/finale.png",
-      "armored-truck": "core/vehicle/armored-truck.pngcore/",
-      "bot/ehe-7": "core/bot/ehe-7.png",
-      "bot/xp90": "core/bot/xp90.png",
-      "bot/xp120": "core/bot/xp120.png"
+      "tensor/reliant": "vehicle/tensor/reliant.png",
+      "tensor/bustler": "vehicle/tensor/bustler.png",
+      "tensor/troubadour": "vehicle/tensor/troubadour.png",
+      "tensor/mobius": "vehicle/tensor/mobius.png",
+      "tensor/practicale": "vehicle/tensor/practicale.png",
+      "tensor/speciale": "vehicle/tensor/speciale.png",
+      "tensor/finale": "vehicle/tensor/finale.png",
+      "armored-truck": "vehicle/armored-truck.png",
+      "bot/ehe-7": "bot/ehe-7.png",
+      "bot/xp90": "bot/xp90.png",
+      "bot/xp120": "bot/xp120.png"
     },
     "map": {
       "rook-city": {
@@ -246,7 +246,7 @@
       },
       "skip-tutorial": {
         "script": [
-          "show-map rook-city"
+          "start-chase chase-example-001"
         ]
       }
     },
