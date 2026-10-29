@@ -237,6 +237,48 @@
         "background": "map/rook-city.png"
       }
     },
+    "mapMarker": {
+      "arcadia/redline": {
+        "mapId": "rook-city",
+        "text": "CYBERCAFE: REDLINE",
+        "-- TBD: add icons etc": "",
+        "x": 100,
+        "y": 200,
+        "script": [
+          "cybercafe redline"
+        ]
+      },
+      "arcadia/paradox": {
+        "mapId": "rook-city",
+        "text": "CYBERCAFE: PARADOX",
+        "-- TBD: add icons etc": "",
+        "x": 100,
+        "y": 300,
+        "script": [
+          "cybercafe paradox"
+        ]
+      },
+      "terryton/vendor-001": {
+        "mapId": "rook-city",
+        "text": "VENDOR: 001",
+        "-- TBD: add icons etc": "",
+        "x": 100,
+        "y": 400,
+        "script": [
+          "vendor 001"
+        ]
+      },
+      "gardens/broker-001": {
+        "mapId": "rook-city",
+        "text": "BROKER: 001",
+        "-- TBD: add icons etc": "",
+        "x": 100,
+        "y": 500,
+        "script": [
+          "broker 001"
+        ]
+      }
+    },
     "scenario": {
       "tutorial": {
         "script": [
