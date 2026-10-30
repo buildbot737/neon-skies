@@ -252,7 +252,7 @@
         "mapId": "rook-city",
         "text": "CYBERCAFE: PARADOX",
         "-- TBD: add icons etc": "",
-        "x": 100,
+        "x": 300,
         "y": 300,
         "script": [
           "cybercafe paradox"
@@ -262,7 +262,7 @@
         "mapId": "rook-city",
         "text": "VENDOR: 001",
         "-- TBD: add icons etc": "",
-        "x": 100,
+        "x": 500,
         "y": 400,
         "script": [
           "vendor 001"
@@ -272,8 +272,8 @@
         "mapId": "rook-city",
         "text": "BROKER: 001",
         "-- TBD: add icons etc": "",
-        "x": 100,
-        "y": 500,
+        "x": 150,
+        "y": 600,
         "script": [
           "broker 001"
         ]
