@@ -234,7 +234,7 @@
     },
     "map": {
       "rook-city": {
-        "background": "map/rook-city.png"
+        "background": "map/rook-city.jpg"
       }
     },
     "mapMarker": {
