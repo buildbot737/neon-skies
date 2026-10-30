@@ -240,40 +240,44 @@
     "mapMarker": {
       "arcadia/redline": {
         "mapId": "rook-city",
+        "type": "vendor",
         "text": "CYBERCAFE: REDLINE",
         "-- TBD: add icons etc": "",
-        "x": 100,
-        "y": 200,
+        "x": 990,
+        "y": 720,
         "script": [
           "cybercafe redline"
         ]
       },
       "arcadia/paradox": {
         "mapId": "rook-city",
+        "type": "vendor",
         "text": "CYBERCAFE: PARADOX",
         "-- TBD: add icons etc": "",
-        "x": 300,
-        "y": 300,
+        "x": 200,
+        "y": 1111,
         "script": [
           "cybercafe paradox"
         ]
       },
       "terryton/vendor-001": {
         "mapId": "rook-city",
+        "type": "vendor",
         "text": "VENDOR: 001",
         "-- TBD: add icons etc": "",
-        "x": 500,
-        "y": 400,
+        "x": 320,
+        "y": 680,
         "script": [
           "vendor 001"
         ]
       },
       "gardens/broker-001": {
         "mapId": "rook-city",
+        "type": "vendor",
         "text": "BROKER: 001",
         "-- TBD: add icons etc": "",
-        "x": 150,
-        "y": 600,
+        "x": 650,
+        "y": 850,
         "script": [
           "broker 001"
         ]

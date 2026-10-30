@@ -38,10 +38,11 @@
     "mapMarker": {
       "tpm/launcher": {
         "mapId": "rook-city",
-        "text": "Quest: The People's Medicine",
+        "type": "scenario",
+        "text": "Scenario: The People's Medicine",
         "-- TBD: add icons etc": "",
-        "x": 100,
-        "y": 100,
+        "x": 430,
+        "y": 1200,
         "script": [
           "start-story tpm/the-peoples-medicine"
         ]
